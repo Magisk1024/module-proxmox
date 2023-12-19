@@ -76,10 +76,6 @@
                 <td><?php echo (isset($service_fields->proxmox_hostname) ? $this->Html->safe($service_fields->proxmox_hostname) : null);?></td>
             </tr>
             <tr>
-                <td><?php $this->_('Proxmox.service_info.uptime');?></td>
-                <td><?php echo (isset($server->uptime_formatted) ? $this->Html->safe($server->uptime_formatted) : null);?></td>
-            </tr>
-            <tr>
                 <td><?php $this->_('Proxmox.service_info.cpu_usage');?></td>
                 <td><?php echo (isset($server->cpu_formatted) ? $this->Html->safe($server->cpu_formatted) : null);?> %</td>
             </tr>
