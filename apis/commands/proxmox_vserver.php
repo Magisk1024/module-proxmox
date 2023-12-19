@@ -111,7 +111,7 @@ class ProxmoxVserver
                 if ($vars['cpulimit'] !== '' && is_numeric($vars['cpulimit'])){
                         $payload['cpulimit'] = (float)$vars['cpulimit'];
                 } else {
-                    $payload['cpulimit'] = '0';
+                    $payload['cpulimit'] = '1';
                 }
 
                 if ($vars['cpuunits'] !== '' && is_numeric($vars['cpuunits'])){
@@ -123,7 +123,7 @@ class ProxmoxVserver
                 if ($vars['swap'] !== '' && is_numeric($vars['swap'])){
                     $payload['swap'] = (int)$vars['swap'];
                 } else {
-                    $payload['swap'] = '0';
+                    $payload['swap'] = '64';
                 }
 
                 $response = $this->api->submit('nodes/' . $vars['node'] . '/lxc', $payload, 'POST');
