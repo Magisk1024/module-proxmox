@@ -224,18 +224,18 @@ $lang['Proxmox.tab_client_stats.heading_graphs'] = 'Graphs';
 
 
 // Console Tab
-$lang['Proxmox.tab_console.heading_console'] = 'Console';
+$lang['Proxmox.tab_console.heading_console'] = 'Public IP';
 
-$lang['Proxmox.tab_console.vnc_ip'] = 'VNC Host:';
+$lang['Proxmox.tab_console.vnc_ip'] = 'Public IP Address:';
 $lang['Proxmox.tab_console.vnc_port'] = 'VNC Port:';
 $lang['Proxmox.tab_console.vnc_user'] = 'VNC Username:';
 $lang['Proxmox.tab_console.vnc_password'] = 'VNC Password:';
 
 
 // Client Console Tab
-$lang['Proxmox.tab_client_console.heading_console'] = 'Console';
+$lang['Proxmox.tab_client_console.heading_console'] = 'Public IP';
 
-$lang['Proxmox.tab_client_console.vnc_ip'] = 'VNC Host';
+$lang['Proxmox.tab_client_console.vnc_ip'] = 'Public IP Address';
 $lang['Proxmox.tab_client_console.vnc_port'] = 'VNC Port';
 $lang['Proxmox.tab_client_console.vnc_user'] = 'VNC Username';
 $lang['Proxmox.tab_client_console.vnc_password'] = 'VNC Password';
